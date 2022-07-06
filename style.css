@@ -1,8 +1,11 @@
 html {
   font-family: nunito, sans-serif;
 }
+
 .title {
   text-align: center;
+  color: red;
+  font-size: small;
 }
 .header-container {
   display: flex;
@@ -24,6 +27,16 @@ html {
 .card > img {
   border-radius: 20%;
   max-width: 100vw;
+}
+
+button {
+  padding: 1rem;
+  max-width: 6rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 30% 30% 30%;
+  align-self: center;
 }
 
 @media screen and (min-width: 768px) {
