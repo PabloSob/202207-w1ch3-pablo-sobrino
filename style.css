@@ -1,4 +1,13 @@
 html {
   font-family: nunito, sans-serif;
-  display: flexbox;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+}
+
+.section1 > button {
+  justify-items: right;
 }
